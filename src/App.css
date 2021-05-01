@@ -1,0 +1,14 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  border: none;
+  font-family: 'Nunito', sans-serif;
+}
+.app{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

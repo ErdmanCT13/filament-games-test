@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-filamentgamestest-dev-164809-authRole",
+      "UnauthRoleArn": "arn:aws:iam::240609057660:role/amplify-filamentgamestest-dev-164809-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::240609057660:role/amplify-filamentgamestest-dev-164809-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-filamentgamestest-dev-164809-deployment",
+      "UnauthRoleName": "amplify-filamentgamestest-dev-164809-unauthRole",
+      "StackName": "amplify-filamentgamestest-dev-164809",
+      "StackId": "arn:aws:cloudformation:us-east-2:240609057660:stack/amplify-filamentgamestest-dev-164809/6e264160-a86b-11eb-936f-027a8c6cb26e",
+      "AmplifyAppId": "d25kr82nzq8lqb"
+    },
+    "categories": {
+      "auth": {
+        "filamentgamestest3df823ac": {}
+      }
+    }
+  }
+}

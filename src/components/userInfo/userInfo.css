@@ -1,0 +1,36 @@
+.userInfo{
+    height: fit-content;
+}
+.userInfo__message{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.userInfo__login-welcome{
+    font-size: clamp(8px, 4vw, 30px);
+}
+.userInfo__login-email{
+    font-size: clamp(25px, 4vw, 50px);
+    padding: 20px;
+    background: hsl(3,97%,60%);
+    margin-top: 20px;
+    color: white;
+    border-radius: 10px;
+}
+.userInfo__spinner{
+    height: 100px;
+    width: 100px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: transparent;
+    border-top-color: hsl(3,97%,60%);
+    border-bottom-color: hsl(3,97%,60%);
+    animation: spin 1s linear infinite; 
+
+}
+@keyframes spin{
+    to {transform: rotate(360deg);}
+}

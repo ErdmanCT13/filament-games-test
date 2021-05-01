@@ -1,0 +1,100 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    padding: 20px;
+    width: 300px;
+
+}
+
+.login > div{
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: hsl(0, 0%, 90%);
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    transition: all .5s ease-out;
+}
+
+.login > div:hover{
+    border-color: hsl(3,97%,60%);
+}
+.login > div:hover > div{
+    color: hsl(3,97%,60%);
+}
+.login input{
+    height: 100%;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+}
+.login input:focus{
+    font-weight: 400;
+    color: hsl(3,97%,60%);
+}
+.login > .login__filament-logo{
+    border: none;
+    background: url("../../assets/filamentLogo.svg") no-repeat center;
+    background-size: contain;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 0 0 20px 0;
+}
+.login__username-field{
+    margin-top: 0;
+}
+
+.login__password-field{
+
+}
+.login__submit{
+    cursor: pointer;
+}
+/* .login__submit:hover{
+    background: hsl(3,97%,60%);
+} */
+.login__submit > div:nth-child(1){
+    font-weight: 700;
+    flex: 1;
+}
+.login__submit > div:nth-child(2){
+    height: 50px;
+    width: 30px;
+    -webkit-mask: url("../../assets/login_black_24dp.svg") no-repeat center;
+    -webkit-mask-size: 25px 25px;
+    background: hsl(0, 0%, 40%);
+    transition: background .5s ease-out;
+}
+.login__submit:hover > div:nth-child(2){
+    background: hsl(3,97%,60%);
+}
+.login > .login__google{
+    position: relative;
+    margin-top: 41px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.login__google::before{
+    content: "";
+    position: absolute;
+    top: -21px;
+    height: 1px;
+    background: hsl(0, 0%, 90%);
+    width: 100%;
+}
+.login__google > div:nth-child(1){
+    flex: 1;
+}
+.login__google > div:nth-child(2){
+    height: 50px;
+    width: 30px;
+    background: url("../../assets/google.png") no-repeat center;
+    background-size: 30px 30px;
+}

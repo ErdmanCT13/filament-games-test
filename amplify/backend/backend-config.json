@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "filamentgamestest3df823ac": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
