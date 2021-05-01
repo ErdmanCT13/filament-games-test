@@ -3,8 +3,9 @@
     flex-direction: column;
     height: fit-content;
     padding: 20px;
-    width: 300px;
-
+    width: 70%;
+    max-width: 300px;
+    min-width: 250px;
 }
 
 .login > div{
@@ -16,6 +17,7 @@
     border-color: hsl(0, 0%, 90%);
     padding: 0 10px;
     display: flex;
+    box-sizing: border-box;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
