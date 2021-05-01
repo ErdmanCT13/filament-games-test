@@ -26,7 +26,6 @@ export default function Login() {
         try {
             isLoginErrorVisible(false) // hide any error messages before each new attempt
             await Auth.federatedSignIn({ provider: "Google" })
-            //console.log(user, "HERES THE USERajsdf;jaksd;jkfasljdfljasdj;kfasjlkdfj;lkasj;lkdf;jlkas!")
             setAuthState(false) // auth is no longer in progress
         }
         catch (error) {

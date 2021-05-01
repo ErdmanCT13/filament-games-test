@@ -1,5 +1,4 @@
 import { useContext, useEffect } from "react"
-import { Auth } from "@aws-amplify/auth"
 import UserContext from "../../userContext.js"
 import "./userInfo.css"
 
