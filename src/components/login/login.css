@@ -98,3 +98,8 @@
     background: url("../../assets/google.png") no-repeat center;
     background-size: 30px 30px;
 }
+.login > .login__error{
+    background: hsl(3,97%,60%);
+    color: white;
+    border: none;
+}

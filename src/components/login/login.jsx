@@ -101,7 +101,7 @@ export default function Login() {
             {(() => {
                 if (loginError) {
                     return (
-                        <div className="login_error">
+                        <div className="login__error">
                             Incorrect username or password
                         </div>
                     )
