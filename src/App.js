@@ -23,18 +23,6 @@ function App() {
       catch(error){
         console.warn("no user authenticated at first render of app")
       }
-
-    //   console.log(cognitoUser)
-    //   var session = await Auth.currentSession()
-    //   console.log(session)
-    //   var user = {
-    //     email: cognitoUser.attributes.email,
-    //     email_verified: cognitoUser.attributes.email_verified,
-    //     accessToken: session.accessToken.jwtToken,
-    //     idToken: session.idToken.jwtToken,
-    //     refreshToken: session.refreshToken.token
-    // }
-    //   // window.localStorage.setItem("user", user)
       setUser(cognitoUser)
     })()
   }, []) 
@@ -44,10 +32,7 @@ function App() {
       <div className="app">
         <Router>
           {(() => {
-            // window.localStorage.setItem("user", {accessToken: session.accessToken.jwtToken}) // THIS NEEDS TO BE CHANGED TOMORROW SO THAT THE OBJECT IS PURE JSON FORMAT
             console.log(user)
-            // console.log(window.localStorage.getItem("user"))
-            // if (user) return <Redirect to="/userinfo"></Redirect>
           })()}
           <Switch>
             <Route exact path="/">
